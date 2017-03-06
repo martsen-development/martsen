@@ -11,3 +11,8 @@
 |
 */
 
+use App\Http\Controllers\MyCopy\Conversores\CoresController;
+
+Route::get('/', function () {
+    return view('mycopy.pessoa');
+});

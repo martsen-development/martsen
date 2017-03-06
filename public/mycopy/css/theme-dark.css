@@ -1,0 +1,27 @@
+#sidebar-wrapper{
+    background-color: #444444;
+}
+
+.submenu-body{
+    background-color: #666666;
+}
+
+.submenu-heading{
+    background-color: #555555;
+}
+
+.list-group div {
+    color: #AEAEAE;
+}
+
+.submenu-submenu-item a:hover {
+    background-color: #273246;
+}
+
+.submenu-title{
+    color: #4CAF50;
+}
+
+.submenu-title:hover {
+    color: #449d44;
+}

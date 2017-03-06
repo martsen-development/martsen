@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr{
+    border-color: #DDD;
+}
+
+html,
+body {
+    height: 100%;
+    /*background-image: url("../images/news/02.jpeg");*/
+    /*background-position: top;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background-color: #fafafa;
+    color: #636b6f;
+    font-family: sans-serif, 'Raleway';
+    margin: 0;
+}
+
+.container-fluid,
+.container-fluid-row,
+#sidebar-wrapper{
+    height: 100%;
+}

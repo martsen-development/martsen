@@ -10,16 +10,30 @@
 
     <!-- CSS BASE -->
     <link rel="stylesheet" href="{{  URL::asset('assets/bootstrap/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{  URL::asset('assets/fontawesome/css/font-awesome.min.css')  }}">
+    <link rel="stylesheet" href="{{  URL::asset('mycopy/css/master.css') }}">
+    <link rel="stylesheet" href="{{  URL::asset('mycopy/css/sidebar.css') }}">
+    <link rel="stylesheet" href="{{  URL::asset('mycopy/css/theme-dark.css') }}">
     <!-- cSS BASE -->
-
+    <link rel="stylesheet" type="text/css" href="{{  URL::asset('assets/glyphicons/glyphicons.css') }}">
     @yield('css')
 
 </head>
 <body>
-    <div class="col-md-12">
-        @yield('content')
+
+    @include('mycopy.layout.header')
+
+    <div class="container-fluid">
+
+        <div class="row container-fluid-row">
+
+            @include('mycopy.layout.sidebar')
+
+            @yield('content')
+        </div>
     </div>
 
+    @include('mycopy.layout.footer')
     <!-- Load JS -->
     <script src="{{  URL::asset('assets/jquery/jquery-3.1.1.min.js') }}"></script>
     <script src="{{  URL::asset('assets/bootstrap/js/tether.min.js') }}"></script>

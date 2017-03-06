@@ -1,0 +1,62 @@
+div#sidebar-wrapper{
+    width: 250px;
+}
+
+div.navigation-divider{
+    margin: 10px 0;
+    height: 1px;
+}
+div.menu-heading h5,
+div.submenu-heading h6{
+    margin: 0;
+    height: 100%;
+    display: block;
+    line-height: 39px;
+}
+
+div.menu-heading h5,
+div.submenu-heading h6,
+div.submenu-submenu-item{
+    height: 40px;
+}
+
+h6.submenu-title{
+    display: block;
+}
+
+h6.submenu-title:hover{
+    font-weight: bold;
+}
+
+div.submenu-submenu-item a {
+    padding-left: 40px;
+    height: 100%;
+    display: block;
+    line-height: 38px;
+}
+
+div.menu-heading h5:hover,
+div.submenu-heading h6:hover,
+div.submenu-submenu-item a:hover{
+    cursor: pointer;
+}
+
+div.submenu-submenu-item a:hover{
+    font-weight: bold;
+}
+
+div.menu-heading{
+    padding-left: 10px;
+    display: table;
+    width: 100%;
+}
+
+div.submenu-heading h6 {
+    padding-left: 25px;
+}
+
+div.list-group div{
+    list-style-type: none;
+}
+
+

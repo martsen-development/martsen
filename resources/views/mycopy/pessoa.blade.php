@@ -1,0 +1,1 @@
+@extends('mycopy.layout.master')
