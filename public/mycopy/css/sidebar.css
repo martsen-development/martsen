@@ -37,6 +37,7 @@ div.submenu-submenu-item a {
 
 div.menu-heading h5:hover,
 div.submenu-heading h6:hover,
+span.glyphicon-my-icon:hover,
 div.submenu-submenu-item a:hover{
     cursor: pointer;
 }
@@ -59,4 +60,9 @@ div.list-group div{
     list-style-type: none;
 }
 
+.glyphicon-my-icon{
+    line-height: 39px !important;
+    float: left;
+    margin-right: 10px
+}
 

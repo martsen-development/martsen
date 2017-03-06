@@ -1,5 +1,7 @@
 <div id="sidebar-wrapper" class="sidebar-toggle">
-    <div class="menu-heading" data-toggle="collapse" data-target="#menu-cores"> <h5 class="menu-title">Cores</h5> </div>
+    <div class="menu-heading" data-toggle="collapse" data-target="#menu-cores">
+        <span class="glyphicons glyphicons-tint glyphicon-my-icon"></span>
+        <h5 class="menu-title">Cores</h5> </div>
     <div class="menu-body collapse" id="menu-cores">
         <div class="submenu-heading" data-parent="#menu-cores" data-toggle="collapse" data-target="#submenu-binario"> <h6 class="submenu-title">Binário</h6> </div>
         <div class="submenu-body collapse" id="submenu-binario">
@@ -100,8 +102,21 @@
         </div>
     </div>
 
+    <div class="menu-heading" data-toggle="collapse" data-target="#menu-decoders">
+        <span class="glyphicons glyphicons-bomb glyphicon-my-icon"></span>
+        <h5 class="menu-title">Decoders</h5>
+    </div>
 
-    <div class="menu-heading" data-toggle="collapse" data-target="#menu-geradores"> <h5 class="menu-title">Geradores</h5> </div>
+    <div class="menu-heading" data-toggle="collapse" data-target="#menu-encoders">
+        <span class="glyphicons glyphicons-playing-dices glyphicon-my-icon"></span>
+        <h5 class="menu-title">Encoders</h5>
+    </div>
+
+
+    <div class="menu-heading" data-toggle="collapse" data-target="#menu-geradores">
+        <span class="glyphicons glyphicons-robot glyphicon-my-icon"></span>
+        <h5 class="menu-title">Geradores</h5>
+    </div>
     <div class="menu-body collapse" id="menu-geradores">
         <div class="submenu-heading" data-parent="#menu-geradores" data-toggle="collapse" data-target="#submenu-pessoa-fisica"><h6 class="submenu-title">Pessoa Física</h6> </div>
         <div class="submenu-body collapse" id="submenu-pessoa-fisica">
@@ -123,5 +138,15 @@
                 <div class="submenu-submenu-item"><a>Data Abertura</a></div>
             </div>
         </div>
+    </div>
+
+    <div class="menu-heading" data-toggle="collapse" data-target="#menu-matematica">
+        <span class="glyphicons glyphicons-skull glyphicon-my-icon"></span>
+        <h5 class="menu-title">Matemática</h5>
+    </div>
+
+    <div class="menu-heading" data-toggle="collapse" data-target="#menu-validadores">
+        <span class="glyphicons glyphicons-bug glyphicon-my-icon"></span>
+        <h5 class="menu-title">Validadores</h5>
     </div>
 </div>
