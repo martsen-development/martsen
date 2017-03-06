@@ -1,3 +1,10 @@
+html,
+body{
+    /*background-color: #fafafa;*/
+    background-color: #444444;
+    color: #636b6f;
+}
+
 #sidebar-wrapper{
     background-color: #337ab7;
     color: white;
